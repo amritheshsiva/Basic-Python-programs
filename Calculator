@@ -3,14 +3,11 @@ b=int(input("Enter second number:"))
 n=int(input("Enter the option:"))
 if(n==1):
     print("a+b=",a+b)
-elif(n==2&a>b):
-    print("a-b=",a-b)
-elif(n==2&a<b):
-    print("b-a=",b-a)
+elif(n==2):
+    print("a-b",a-b)
 elif(n==3):
     print("a*b=",a*b)
 elif(n==4):
     print("a/b=",a/b)
 else:
     print("Invalid")
-    
